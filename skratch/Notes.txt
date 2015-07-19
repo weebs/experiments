@@ -1,0 +1,45 @@
+Skratcher
+  - Most of Skratcher is the keyDown event
+    - Mostly talks to the SourceFile
+
+SourceView
+  - getFormattedText is the largest method
+  - Really all it does is generate text from the SourceFile and fill it into
+  the viewPanel
+
+SourceFile
+  - Tracks file contents
+  - Controls cursor
+  - Manages insertion + deletion of text
+
+
+TODO: Notes on files
+  - global.js
+  - keyboard-values.js
+  - extension-functions.js
+  - debug.js
+  - settings.js
+  - main.js
+
+Tasks:
+  - Implement file saving w/ database
+    - Try to abstract implementation so it is trivial to switch the data store from
+    localStorage to something like Relativity or mongoDB
+
+  - Implement a parser
+    - Does the file need an abstracted representation?
+      - Is this going to be just a code editor, or a WYSIWYG?
+
+  - Iron out which classes should be responsible for what
+
+  - Clean up keyboard stuff (there shouldn't be so much of this inside skratcher.js)
+
+
+
+- Look into Prototypes tutorial
+  - Also, design patterns
+
+- Using self/me = {} in private methods?
+
+x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+y = '0123456789';

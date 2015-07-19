@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+
+  	<title>Skratcher</title>
+
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+
+    <button id="btnRawSource">Raw Source</button>
+    <button id="btnStyledSource">Styled Source</button>
+
+    <div id="watchPanel"></div>
+    <div id="statusPanel"></div>
+    <div id="mainPanel">
+
+      <div id="infoPanel">
+        <div class="infoPanelItem">Command 1</div>
+        <div class="infoPanelItem">Command 2</div>
+        <div class="infoPanelItem">Command 3</div>
+      </div>
+
+      <div id="editorPanel"></div>
+    </div>
+
+    <div id="helpPanel">
+      <h3>Commands</h3>
+
+      <table id="tableA">
+        <th>Shortcut</th>
+        <th>Action</th>
+
+        <tr>
+          <td>Shift + &lt;--</td>
+          <td>Move cursor to the beginning of the line</td>
+        </tr>
+        <tr>
+          <td>Shift + --&gt;</td>
+          <td>Move cursor to the end of the line</td>
+        </tr>
+        <tr>
+          <td>Shift + Up</td>
+          <td>Move cursor to the beginning of the file</td>
+        </tr>
+        <tr>
+          <td>Shift + Down</td>
+          <td>Move cursor to the end of the file</td>
+        </tr>
+        <tr>
+          <td>Ctrl + B</td>
+          <td>Delete to the beginning of the line</td>
+        </tr>
+        <tr>
+          <td>Ctrl + E</td>
+          <td>Delete to the end of the line</td>
+        </tr>
+        <tr>
+          <td>Ctrl + X</td>
+          <td>Delete the current line</td>
+        </tr>
+        <tr>
+          <td>Ctrl + Alt + X</td>
+          <td>Clear the entire file</td>
+        </tr>
+      </table>
+
+      <table id="tableB">
+        <th>Shortcut</th>
+        <th>Action</th>
+
+        <tr>
+          <td>Ctrl + I</td>
+          <td>Insert an image</td>
+        </tr>
+        <tr>
+          <td>Up, Down, Left, Right</td>
+          <td>Navigate</td>
+        </tr>
+        <tr>
+          <td>Escape</td>
+          <td>Return to Command mode</td>
+        </tr>
+        <tr>
+          <td>(i)</td>
+          <td>Enter insert mode</td>
+        </tr>
+        <tr>
+          <td>todo</td>
+          <td>todo</td>
+        </tr>
+        <tr>
+          <td>todo</td>
+          <td>todo</td>
+        </tr>
+        <tr>
+          <td>todo</td>
+          <td>todo</td>
+        </tr>
+        <tr>
+          <td>todo</td>
+          <td>todo</td>
+        </tr>
+      </table>
+    </div>    
+
+    <script src="extension-functions.js"></script>
+    <script src="settings.js"></script>
+    <script src="debug.js"></script>
+    <script src="global.js"></script>
+    <script src="keyboard-values.js"></script>
+    <script src="source-file.js"></script>
+    <script src="source-view.js"></script>
+    <script src="skratcher.js"></script>
+    <script src="database.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

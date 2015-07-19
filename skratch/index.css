@@ -1,0 +1,62 @@
+body {
+  font-family: monospace;
+  padding: 10px;
+}
+
+#editorPanel {
+  float: left;
+  border: 1px solid black;
+  width: 70%;
+  height: 600px;
+  white-space: pre-wrap;
+  overflow-y: scroll;
+  margin-left: 15px;
+}
+
+#watchPanel, #statusPanel {
+  height: 20px;
+  width: 800px;
+}
+
+#infoPanel {
+  float: left;
+  height: 600px;
+  border: 1px solid black;
+  width: 27%;
+  white-space: pre-wrap;
+  overflow-y: scroll;
+}
+
+.infoPanelItem {
+  background-color: gray;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+#mainPanel {
+  width: auto;
+  height: auto;
+}
+
+table {
+
+}
+
+th {
+  text-align: left;
+  font-size: 14;
+}
+
+tr, td, th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#tableA, #tableB {
+  width: 48%;
+  margin: 10px;
+}
+
+#tableA { float: left; }
+#tableB { float: right; }
