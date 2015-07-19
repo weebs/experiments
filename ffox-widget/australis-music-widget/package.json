@@ -1,0 +1,10 @@
+{
+  "name": "msu-music-widget",
+  "fullName": "msu-music-australis-widget",
+  "id": "jid1-ahoQUEjmds0TqQ",
+  "description": "A basic audio file player, making use of the new Australis-styled customizable widgets.",
+  "author": "David Thorpe, Eric Proper, and Eric Slenk of Michigan State University 2013",
+  "license": "MPL 2.0",
+  "version": "1.0",
+  "unpack": true
+}

@@ -1,0 +1,39 @@
+
+<hbox>
+<vbox id="msu-music-vbox-container" align="center">
+
+  <vbox id="msu-music-info-holder">
+    <hbox>
+        <image id="msu-music-img-album-artwork" width="64" height="64"/>
+        <vbox height="64">
+            <label crop="right" id="msu-music-lbl-title" value="Track Title" style="font-weight: bold; width: 100px;" />
+            <label crop="right" id="msu-music-lbl-album" value="Album" style="width: 100px;" />
+            <label crop="right" id="msu-music-lbl-artist" value="Artist" style="width: 100px;" />
+        </vbox>
+    </hbox>
+
+    <hbox id="msu-music-hbox-playback-progress">
+        <label id="msu-music-playback-elapsed" value="0:00" style="margin-top: 5px;" />
+        <scale id="msu-music-playback-progress" min="0" max="100" value="0" />
+        <label id="msu-music-playback-remaining" value="-0:00" style="margin-top: 5px;"/>
+    </hbox>
+  </vbox>
+
+    <hbox id="msu-music-playback-controls">
+        <toolbarbutton align="center" id="msu-music-btn-previous">Prev</toolbarbutton>
+        <toolbarbutton align="center" id="msu-music-btn-play-pause">Play</toolbarbutton>
+        <toolbarbutton align="center" id="msu-music-btn-next">Next</toolbarbutton>
+    </hbox>  
+
+</vbox>
+</hbox>
+
+<hbox>
+    	<vbox id="msu-music-library-container">
+        	<toolbarbutton id="msu-music-btn-set-library">Set Library</toolbarbutton>
+        	<label value="Music Collection" style="font-weight: bold;"/>
+        	<textbox id="msu-music-textbox-filter" width="200" height="26" placeholder="Filter Songs" />
+    		<vbox id="msu-music-vbox-library">
+    		</vbox>
+    	</vbox>
+    </hbox>

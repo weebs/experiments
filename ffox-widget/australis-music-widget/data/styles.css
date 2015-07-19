@@ -1,0 +1,95 @@
+#msu-foo-lbl-counter {
+    background-color: red;
+    color: green;
+}
+
+#msu-music-vbox-container {
+	margin: 2px;
+}
+
+#msu-foo-button {
+    margin: 100px;
+}
+
+#msu-music-img-album-artwork {
+	background-color: gray;
+	border: 1px solid white;
+	outline: 1px solid gray;
+}
+
+#msu-music-info-holder {
+	background-color: #E8E8E8;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	border-bottom: 1px solid white;
+	box-shadow: inset 0 0 3px gray;
+	background:-moz-linear-gradient(40% 60% 65deg, #DDDDDD, #F7F7F7 50%);
+	width: 209px;
+	overflow: hidden;
+}
+
+#msu-music-library-container {
+	margin: 2px;
+    background-color: #DDDDDD;
+    border-radius: 5px;
+    border: 1px solid gray;
+	border-bottom: 1px solid white;
+    overflow: scroll;
+    width: 209px;
+}
+
+.msu-library-label:nth-child(odd) {
+	background-color: #F7F7F7;
+}
+
+.msu-library-label:nth-child(even) {
+	background-color: #DDDDDD;
+}
+
+#msu-music-btn-previous {
+    text-align: center;
+    border-radius: 20px;
+	border: 1px solid gray;
+	height: 40px;
+	width: 40px;
+	margin: 14px 0px 14px 28px;
+	overflow: hidden;
+	background:-moz-linear-gradient(40% 60% 65deg, #999999, #CCCCCC 50%);
+	box-shadow: inset 0 0 3px white;
+	color: white;
+}
+
+#msu-music-btn-next {
+    text-align: center;
+    border-radius: 20px;
+	border: 1px solid gray;
+	height: 40px;
+	width: 40px;
+	margin: 14px 28px 14px 0px;
+	overflow: hidden;
+	background:-moz-linear-gradient(40% 60% 65deg, #999999, #CCCCCC 50%);
+	box-shadow: inset 0 0 3px white;
+	color: white;
+}
+
+#msu-music-btn-play-pause {
+    border-radius: 30px;
+	border: 1px solid gray;
+	height: 60px;
+	width: 60px;
+	overflow: hidden;
+	margin: 4px;
+	background:-moz-linear-gradient(40% 60% 65deg, #999999, #CCCCCC 50%);
+	box-shadow: inset 0 0 3px white;
+	color: white;
+	padding-left: 15px;
+}
+
+#msu-music-btn-play-pause:hover, #msu-music-btn-next:hover, #msu-music-btn-previous:hover {
+    background:-moz-linear-gradient(40% 60% 65deg, #3ad7ff, #bcedff 50%);
+} 
+
+.msu-library-label:hover {
+	background:-moz-linear-gradient(40% 60% 90deg, #3ad7ff, #bcedff 70%);
+}

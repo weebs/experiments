@@ -1,0 +1,15 @@
+C++ Popen Guide
+http://pubs.opengroup.org/onlinepubs/009695399/functions/popen.html
+
+Relevant Stackoverflow Threads on Process Communication
+http://stackoverflow.com/questions/16768290/working-of-popen-communicate
+http://stackoverflow.com/questions/443057/how-to-properly-interact-with-a-process-using-subprocess-module
+
+TkInter Book
+http://effbot.org/tkinterbook/
+
+Python Modules
+- TCP/IP Sockets
+  - http://pymotw.com/2/socket/tcp.html
+- HTTP Requests
+  - http://stackoverflow.com/questions/5755507/creating-a-raw-http-request-with-sockets
